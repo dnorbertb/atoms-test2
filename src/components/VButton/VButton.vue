@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Mask } from 'maska';
 interface IProps {
     text: string,
 }
@@ -9,6 +10,7 @@ const props = withDefaults(defineProps<IProps>(), {
 
 
 
+console.log(Mask);
 
 </script>
 <template>
