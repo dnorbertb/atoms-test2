@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import maska from 'maska';
-console.log(maska)
-
 interface IProps {
     text: string,
 }
