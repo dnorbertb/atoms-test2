@@ -1,6 +1,0 @@
-{
-  "name": "atoms",
-  "dependencies": {
-    "maska": "^2.1.8"
-  }
-}
