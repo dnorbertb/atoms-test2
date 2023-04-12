@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import maska from 'maska';
 
 interface IProps {
     text: string,
@@ -7,6 +8,9 @@ interface IProps {
 const props = withDefaults(defineProps<IProps>(), {
     text: 'This is button'
 })
+
+
+console.log(maska)
 
 </script>
 <template>
